@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		34DE41EB27F54E7A0078448F /* GaugeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE41EA27F54E7A0078448F /* GaugeApp.swift */; };
-		34DE41ED27F54E7A0078448F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE41EC27F54E7A0078448F /* ContentView.swift */; };
+		34DE41EB27F54E7A0078448F /* app.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE41EA27F54E7A0078448F /* app.swift */; };
+		34DE41ED27F54E7A0078448F /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE41EC27F54E7A0078448F /* Dashboard.swift */; };
 		34DE41EF27F54E7C0078448F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34DE41EE27F54E7C0078448F /* Assets.xcassets */; };
 		34DE41F227F54E7C0078448F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34DE41F127F54E7C0078448F /* Preview Assets.xcassets */; };
+		34DE41F927F639710078448F /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE41F827F639710078448F /* Bar.swift */; };
+		34DE41FB27F63A510078448F /* Gauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE41FA27F63A510078448F /* Gauge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		34DE41E727F54E7A0078448F /* Gauge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gauge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		34DE41EA27F54E7A0078448F /* GaugeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeApp.swift; sourceTree = "<group>"; };
-		34DE41EC27F54E7A0078448F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		34DE41EA27F54E7A0078448F /* app.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app.swift; sourceTree = "<group>"; };
+		34DE41EC27F54E7A0078448F /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 		34DE41EE27F54E7C0078448F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34DE41F127F54E7C0078448F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34DE41F827F639710078448F /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		34DE41FA27F63A510078448F /* Gauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gauge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		34DE41E927F54E7A0078448F /* Gauge */ = {
 			isa = PBXGroup;
 			children = (
-				34DE41EA27F54E7A0078448F /* GaugeApp.swift */,
-				34DE41EC27F54E7A0078448F /* ContentView.swift */,
+				34DE41EA27F54E7A0078448F /* app.swift */,
+				34DE41EC27F54E7A0078448F /* Dashboard.swift */,
+				34DE41FA27F63A510078448F /* Gauge.swift */,
+				34DE41F827F639710078448F /* Bar.swift */,
 				34DE41EE27F54E7C0078448F /* Assets.xcassets */,
 				34DE41F027F54E7C0078448F /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34DE41ED27F54E7A0078448F /* ContentView.swift in Sources */,
-				34DE41EB27F54E7A0078448F /* GaugeApp.swift in Sources */,
+				34DE41ED27F54E7A0078448F /* Dashboard.swift in Sources */,
+				34DE41F927F639710078448F /* Bar.swift in Sources */,
+				34DE41EB27F54E7A0078448F /* app.swift in Sources */,
+				34DE41FB27F63A510078448F /* Gauge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
